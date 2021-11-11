@@ -1,0 +1,10 @@
+*.gem
+.bundle
+.DS_Store
+*/.DS_Store
+.jekyll-cache
+.sass-cache
+.git
+_site
+Gemfile.lock
+.ruby-version
