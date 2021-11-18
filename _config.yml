@@ -3,7 +3,7 @@ title         : "Skuld's Council"
 #title_right   : "space" # default: ""
 description   : "Council for Skuld's Projects and more"
 keywords      : "Jekyll, theme, free, download, SEO, blog, web, minimalist, simple, clean, bajawa theme"
-url           : https://skuldnorniern.github.io/ # site url
+url           : https://skuldnorniern.github.io/bajawa # site url
 baseurl       : "" # apply repo name like "/myproject" if used under gh-pages branch, else (under master branch) just leave empty/blank
 cover         : "" # image uri like logo/cover image for site seo
 default_author: "Skuld Norniern" # other authors under _data/authors.yml
