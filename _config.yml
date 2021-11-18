@@ -1,54 +1,60 @@
-title: sncouncil
-email: skuldnorniern@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Council for every programmer that have any interest in Skuld Norniern's Project's
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "SkuldNorniern.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: SkuldNorniern
-github_username:  SkuldNorniern
+# Site settings
+title         : "Skuld's Council"
+#title_right   : "space" # default: ""
+description   : "Council for Skuld's Projects and more"
+keywords      : "Jekyll, theme, free, download, SEO, blog, web, minimalist, simple, clean, bajawa theme"
+url           : https://skuldnorniern.github.io/bajawa # site url
+baseurl       : "" # apply repo name like "/myproject" if used under gh-pages branch, else (under master branch) just leave empty/blank
+cover         : "" # image uri like logo/cover image for site seo
+default_author: "Skuld Norniern" # other authors under _data/authors.yml
 
-
-header_transparent: true
-lang: "en"
-
-night_mode: "auto"
-
-# defaults:
-#   home:
-#     heading: "Your awesome heading"
-#     subheading: "Your awesome subheading"
-#     banner: "./assets/images/banners/home.jpeg"
+google_analytics  : UA-XXXXX-XX
+twitter_username  : "SkuldNorniern" # your twitter username
+comments_enabled  : true # if enabled (set to true), please provide your disqus_username
+disqus_shortname  : "sncouncil"
+postshare_enabled : false
+github_username   : "SkuldNorniern" # your github username
 
 # Build settings
-markdown: kramdown
-kmarkdown:
-  input: GFM
+permalink   : /:year/:month/:title/
+markdown    : kramdown
+highlighter : rouge
+
+source      : ./
+destination : ./_site
+
+# Pagination Settings
+paginate: 5 # change this into your desired number, paginate 2 means: there will only be 2 titles of your blogpost in one page
+paginate_path: "/blog/page:num/"
+
+# Sass configuration
+sass:
+  sass_dir  : _sass
+  style     : compressed # expanded
+
+defaults:
+  - scope:
+      path: "assets/images"
+    values:
+      image: true
 
 
-theme: jekyll-theme-yat
 plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-paginate
-  - jekyll-spaceship
 
-# Exclude from processing.
-# The following items will not be processed, by default.
-# Any item listed under the `exclude:` key here will be automatically added to
-# the internal "default list".
-#
-# Excluded items can be processed by explicitly listing the directories or
-# their entries' file path in the `include:` list.
-#
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+# navbar pages
+navbar:
+  - slug : about
+    title: About
+  - slug : blog
+    title: Blog
+  - slug : search
+    title: Search
+
+exclude:
+  - "Gemfile"
+  - "Gemfile.lock"
+  - ".ruby-version"
+  - "README.md"
+  - "bajawa.gemspec"
