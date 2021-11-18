@@ -38,6 +38,7 @@ defaults:
     values:
       image: true
 
+
 plugins:
   - jekyll-sitemap
   - jekyll-paginate
@@ -57,3 +58,8 @@ exclude:
   - ".ruby-version"
   - "README.md"
   - "bajawa.gemspec"
+
+comment:
+  provider: "disqus"
+  disqus:
+      shortname: "sncouncil"
