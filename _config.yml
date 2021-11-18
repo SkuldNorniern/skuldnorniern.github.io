@@ -10,8 +10,8 @@ default_author: "Skuld Norniern" # other authors under _data/authors.yml
 
 google_analytics  : UA-XXXXX-XX
 twitter_username  : "SkuldNorniern" # your twitter username
-comments_enabled  : false # if enabled (set to true), please provide your disqus_username
-disqus_shortname  : ""
+comments_enabled  : true # if enabled (set to true), please provide your disqus_username
+disqus_shortname  : "sncouncil"
 postshare_enabled : false
 github_username   : "SkuldNorniern" # your github username
 
@@ -58,8 +58,3 @@ exclude:
   - ".ruby-version"
   - "README.md"
   - "bajawa.gemspec"
-
-comment:
-  provider: "disqus"
-  disqus:
-      shortname: "sncouncil"
