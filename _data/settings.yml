@@ -4,7 +4,7 @@ disqus:
   disqus_shortname: 'sncouncil'
 
 # If you are not using Google Analytics, please change 'google-ID' to an empty string
-google-ID: 'UA-91332049-1'
+google-ID: '194685484'
 
 menu: 
   - name: Featured Projects
