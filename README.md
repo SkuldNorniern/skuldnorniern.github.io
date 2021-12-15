@@ -29,7 +29,7 @@ A place for programmers who have interest in Skuld Norniern's Project!
   bundle exec jekyll serve
   ```
   ### Jekyll Webrick Error
-  - 
+  
   > 'require': cannot load such file -- webrick (LoadError)
 
   ```bash
@@ -37,7 +37,7 @@ A place for programmers who have interest in Skuld Norniern's Project!
   ```
 
   ### Jekyll rexml Error
-  - 
+  
   > 'require': cannot load such file -- rexml/parsers/baseparser
   ```bash
   bundle add rexml
