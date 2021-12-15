@@ -67,3 +67,10 @@ A place for programmers who have interest in Skuld Norniern's Project!
             disqus_shortname:
     ```
     just put your disqus account shorname next to the disqus_shortname:
+
+    also if you want to disable the comments on the main page
+    create a new layout called post 
+    copy the default to post but on the default remove the
+    ```html
+    {% include disqus.html %}
+    ```
