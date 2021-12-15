@@ -9,10 +9,10 @@ google-ID: 'UA-194685484-1'
 menu: 
   - name: Featured Projects
     submenu:
-      - name: 
-        link: /projects/microbam
-      - name: OurLegacy
-        link: /projects/ourlegacy
+      - name: Cordium Project
+        link: /projects/cordium
+      - name: Nukleus Language
+        link: /projects/nukleus
   - name: Posts
     link: /
   - name: Tags
