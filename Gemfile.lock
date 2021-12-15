@@ -85,6 +85,7 @@ GEM
       libv8 (~> 3.16.14.15)
       ref
     tilt (2.0.10)
+    webrick (1.7.0)
 
 PLATFORMS
   x86_64-linux
@@ -98,6 +99,7 @@ DEPENDENCIES
   minima (= 2.0)
   rexml (~> 3.2)
   therubyracer
+  webrick (~> 1.7)
 
 RUBY VERSION
    ruby 3.0.0p0
