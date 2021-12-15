@@ -9,7 +9,7 @@ google-ID: 'UA-194685484-1'
 menu: 
   - name: Featured Projects
     submenu:
-      - name: MicroBam
+      - name: 
         link: /projects/microbam
       - name: OurLegacy
         link: /projects/ourlegacy
