@@ -1,36 +1,31 @@
 ---
 layout: post
 title: "Adding Jekyll Admin"
-date: 2021-12-15 20:57:00 +0900
+date: 2021-12-15 21:49:00 +0900
 comments: true
 categories: development
 tags: [assignment]
 ---
 
 
-<a href="/assets/images/{{page.id}}/result-analytics.png"> <img class="center-block img-responsive"
-        src="/assets/images/{{page.id}}/result-analytics.png" alt="Result" /></a>
+
+<a href="/assets/images/{{page.id}}/Jekyll-admin-page.png"> <img class="center-block img-responsive"
+                src="/assets/images/{{page.id}}/Jekyll-admin-page.png" alt="Jekyll Admin Page" /></a>
 
 
 <p>
         How to do it?
 
-        First go to your analytics page and on the down left of the page, you will find a 
-        settings button 
-        After pressing the settings button than press the Create Property
+        First you will need to add the Jekyll admin plugin to the gemfile.
+
+
 </p>
-<a href="/assets/images/{{page.id}}/property-pane.png"> <img class="center-block img-responsive"
-                src="/assets/images/{{page.id}}/property-pane.png" alt="Property adding screen" /></a>
-<p>     
-        After that you will see the area for put the website address
-        enter that and you will see the tracking id (measurement id)
-        and also the script file for adding it at the head part of the
-        html of your page 
-</p>
-<h3> If you are going to use the same theme with me</h3>
+        {% highlight shell %}
+
+        gem ‘jekyll-admin’, group: :jekyll_plugins
+
+        {% endhighlight %}
 <p>
-        at the _includes folder, you will see the analytics.html
-        remove all and paste the google tag from the upper step
+        Add this to the gemfile and start jekyll
+        connect to the localhost:4000/admin
 </p>
-<a href="/assets/images/{{page.id}}/edited-analytics.png"> <img class="center-block img-responsive"
-                src="/assets/images/{{page.id}}/edited-analytics.png" alt="Edited Analytics" /></a>
