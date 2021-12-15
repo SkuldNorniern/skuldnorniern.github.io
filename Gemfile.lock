@@ -42,6 +42,7 @@ GEM
     jekyll-watch (2.2.1)
       listen (~> 3.0)
     kramdown (1.17.0)
+    libv8 (3.16.14.19)
     libv8 (3.16.14.19-x86_64-linux)
     liquid (4.0.3)
     listen (3.7.0)
@@ -88,6 +89,7 @@ GEM
     webrick (1.7.0)
 
 PLATFORMS
+  ruby
   x86_64-linux
 
 DEPENDENCIES
@@ -102,7 +104,7 @@ DEPENDENCIES
   webrick (~> 1.7)
 
 RUBY VERSION
-   ruby 3.0.0p0
+   ruby 2.7.5p203
 
 BUNDLED WITH
    2.2.3
