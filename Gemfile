@@ -31,3 +31,4 @@ end
 
 
 gem "rexml", "~> 3.2"
+gem 'jekyll-admin', group: :jekyll_plugins
